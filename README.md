@@ -24,60 +24,61 @@ In order to draw and poll events an “Window” is required.
 “SDL Window*” is an SDL structure that holds the attributes of the win-
 dow, we give this structure our properties using “SDL CreateWindow”, as
 paramenters we must specify Window Size(X and Y), the Window name and
-a number of “flags” are also accepted.
+a number of “flags” are also accepted. 
 
+```
 void LWindow::handleEvent(SDL_Event& e)
 {
-	//In case an event was detected
-	if (e.type == SDL_WINDOWEVENT && e.window.windowID == mWindowID)
+//In case an event was detected
+if (e.type == SDL_WINDOWEVENT && e.window.windowID == mWindowID)
+{
+	//Caption update flag
+	bool updateCaption = false;
+	switch (e.window.event)
 	{
-		//Caption update flag
-		bool updateCaption = false;
-		switch (e.window.event)
-		{
-			//Window is shown on screen
-		case SDL_WINDOWEVENT_SHOWN:
-			mShown = true;
-			break;
+		//Window is shown on screen
+	case SDL_WINDOWEVENT_SHOWN:
+		mShown = true;
+		break;
 
-			//Window is not shown on screen
-		case SDL_WINDOWEVENT_HIDDEN:
-			mShown = false;
-			break;
+		//Window is not shown on screen
+	case SDL_WINDOWEVENT_HIDDEN:
+		mShown = false;
+		break;
 
-			//Change window size
-		case SDL_WINDOWEVENT_SIZE_CHANGED:
-			mWidth = e.window.data1;
-			mHeight = e.window.data2;
-			SDL_RenderPresent(mRenderer);
-			break;
+		//Change window size
+	case SDL_WINDOWEVENT_SIZE_CHANGED:
+		mWidth = e.window.data1;
+		mHeight = e.window.data2;
+		SDL_RenderPresent(mRenderer);
+		break;
 
-			//Repaint on expose
-		case SDL_WINDOWEVENT_EXPOSED:
-			SDL_RenderPresent(mRenderer);
-			break;
+		//Repaint on expose
+	case SDL_WINDOWEVENT_EXPOSED:
+		SDL_RenderPresent(mRenderer);
+		break;
 
-			//In case mouse enters the window frame 
-		case SDL_WINDOWEVENT_ENTER:
-			mMouseFocus = true;
-			updateCaption = true;
-			break;
-            ...
-			//Hide the window on close
-		case SDL_WINDOWEVENT_CLOSE:
-			SDL_HideWindow(mWindow);
-			break;
-		}
+		//In case mouse enters the window frame 
+	case SDL_WINDOWEVENT_ENTER:
+		mMouseFocus = true;
+		updateCaption = true;
+		break;
 
+		//Hide the window on close
+	case SDL_WINDOWEVENT_CLOSE:
+		SDL_HideWindow(mWindow);
+		break;
 	}
-}
 
+}
+}
+```
 2.2 Renderer
 In order to draw images onto an window we first need an renderer.
 “SDL Renderer” is the structure SDL provides to make this possible, we give
 it attributes with “SDL CreateRenderer” which takes an “SDL Window*” as
 one of it’s parameters, binding the Renderer and Window together.
-
+```
 bool LWindow::init()
 {
 	//Create window
@@ -123,7 +124,7 @@ bool LWindow::init()
 
 	return mWindow != NULL && mRenderer != NULL;
 }
-
+```
 
 Textures
 Textures are what we are going to display on the Window using our
@@ -135,7 +136,7 @@ will not be rendered on the Window.The next step is converting this surface
 to a texture, giving it an pixel size and allowing us to make further changes
 to the pixel structure.
 
-
+```
 bool LTexture::loadFromFile(std::string path, SDL_Renderer* gRenderer)
 {
 	//Get rid of preexisting texture
@@ -178,7 +179,7 @@ bool LTexture::loadFromFile(std::string path, SDL_Renderer* gRenderer)
 	mTexture = newTexture;
 	return mTexture != NULL;
 }
-
+```
 Timers
 Timers are a requirement for a Game Engine, SDL provides the
 “SDL Timer” library for this. This library allows us to have multiple mil-
@@ -225,7 +226,7 @@ The “LPawn” class has a variety of attributes such as the X and Y positions,
 data about the state of the Pawn such as death state, heading position,
 nickname, unique ID, health, if the Pawn is moving, the Pawn collision data
 and more.
-
+```
 void LPawn::handleEvent(SDL_Event& e,SDL_Point mapSize)
 {
 moving = false;
@@ -256,7 +257,7 @@ moving = true;
 p_collisionRect.x = mCollider.x + xCollisionOffset;
 p_collisionRect.y = mCollider.y + yCollisionOffset;
 }
-
+```
 Firing projectiles
 In this game the player is able to fire projectiles from the Pawn posi-
 tions by using the Left Mouse Button at a specified position.The LProjectile
@@ -268,7 +269,7 @@ limit the amount of projectiles that can be fired within a certain period of
 time.
 Creating projectile and determining it’s 
 
-
+```
 void LPawn::spawnProjectile(int x, int y, int ang, int dx, int dy,
 float projSpeed)
 {
@@ -293,7 +294,7 @@ break;
 }
 }
 }
-
+```
 
 Animations
 Animations are a necessity in modern games, in order to create an
@@ -316,7 +317,7 @@ a cropped animation. In this situation you need to know give the function
 the size of the animation, so that the engine knows how much to crop for
 each texture and then convert it into a animation.
 
-
+```
 void LAnim::renderStaticAnim(SDL_Renderer * gRenderer,bool renderCollisiionBox, int colW, int colH,int colX, int colY)
 {
 	//RENDER SEQ ANIM
@@ -410,6 +411,7 @@ void LAnim::renderStaticAnim(SDL_Renderer * gRenderer,bool renderCollisiionBox, 
 		}
 	}
 }
+```
 Game development is a vast and complex industry, every year new and
 more advanced systems are created to build games. Even thought most of
 the systems created by me were done before, it doesn’t necessarily mean that
