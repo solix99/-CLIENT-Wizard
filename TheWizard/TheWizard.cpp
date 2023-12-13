@@ -858,6 +858,7 @@ void createBigTexture(LTexture &sTexture, LTexture &tTexture,int mapSizeX, int m
 
 	tTexture.loadTargetTexture(gWindow.getRenderer(), mapSizeX, mapSizeY);
 
+	if (sTexture.getWidth() != 0) 
 	for (int i = 0; i <= (int)mapSizeX /sTexture.getWidth(); i++)
 	{
 		for (int j = 0; j <= (int)mapSizeY / sTexture.getHeight(); j++)

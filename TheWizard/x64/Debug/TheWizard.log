@@ -16,38 +16,38 @@ C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(780,88): warn
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(792,165): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(792,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(825,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(911,6): warning C4101: 'temp': unreferenced local variable
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1107,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1107,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1108,121): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1108,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1109,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1109,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(912,6): warning C4101: 'temp': unreferenced local variable
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1108,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1108,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1109,121): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1109,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1110,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1110,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1451,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1451,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1460,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1467,194): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1467,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1467,111): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1467,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1472,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1479,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1479,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1483,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1483,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1484,97): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1111,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1111,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1452,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1452,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1461,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1468,194): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1468,147): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1468,111): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1468,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1473,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1480,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1480,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1484,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1484,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1574,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1600,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1612,32): warning C4018: '<': signed/unsigned mismatch
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1622,32): warning C4018: '<': signed/unsigned mismatch
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1745,49): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1748,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1485,97): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1485,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1575,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1601,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1613,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1623,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1746,49): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1749,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1752,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1580,7): warning C4101: 'sendbuf': unreferenced local variable
-C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(2101,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1750,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1753,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(1581,7): warning C4101: 'sendbuf': unreferenced local variable
+C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(2102,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\mariu\source\repos\-CLIENT-Wizard\TheWizard\TheWizard.cpp(737): warning C4715: 'clientSendData': not all control paths return a value
   TheWizard.vcxproj -> C:\Users\mariu\source\repos\-CLIENT-Wizard\x64\Debug\TheWizard.exe
